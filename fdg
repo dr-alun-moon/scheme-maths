@@ -1,3 +1,4 @@
+; vi: ft=scheme
 ;Prologue
 
 (define ((Lagrange-equations Lagrangian) w)
@@ -49,4 +50,9 @@
 
 ((Lsphere 'm 'R)
  (up 't (up 'theta 'phi) (up 'thetadot 'phidot)))
+
+(show-expression
+((Lsphere 'm 'R)
+ (up 't (up 'theta 'phi) (up 'thetadot 'phidot)))
+)
 

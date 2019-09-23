@@ -1,3 +1,4 @@
+; vi: ft=scheme
 (define ((L-free-particle mass) local)
   (let ((v (velocity local)))
     (* 1/2 mass (dot-product v v))))

@@ -1,2 +1,3 @@
 ; vi: ft=scheme
-
+(define s (literal-function 's))
+(print-expression (s 't))
